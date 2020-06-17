@@ -1,0 +1,27 @@
+.menu-preview {
+	border-radius: 5px;
+	box-shadow: -2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+	
+	transition-duration: 0.2s;
+}
+	.menu-preview:hover,
+	.menu-preview:focus {
+		box-shadow: -3px 3px 5px 0 rgba(0, 0, 0, 0.5);
+		-webkit-filter: brightness(1.1);
+		        filter: brightness(1.1);
+	}
+	.menu-preview:active {
+		box-shadow: -3px 3px 6px 1px rgba(0, 0, 0, 0.5);
+		-webkit-filter: brightness(0.9);
+		        filter: brightness(0.9);
+	}
+.menu-preview-1 {
+	margin-right: -48px;
+	transform-origin: 120% 100%;
+	transform: rotateZ(-5deg);
+}
+.menu-preview-2 {
+	margin-left: -48px;
+	transform-origin: -120% 100%;
+	transform: translateY(-8px) rotateZ(5deg);
+}
